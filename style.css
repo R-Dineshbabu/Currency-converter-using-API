@@ -1,0 +1,83 @@
+
+body{
+    font-family:'Times New Roman', Times, serif;
+    margin: 0 ;
+    padding: 0;
+    box-sizing: border-box;
+
+    background-image: linear-gradient(45deg, rgba(22, 31, 43, 0.5) 0%, rgba(22, 31, 43, 0.5) 12.5%,rgba(53, 28, 54, 0.5) 12.5%, rgba(53, 28, 54, 0.5) 25%,rgba(83, 25, 65, 0.5) 25%, rgba(83, 25, 65, 0.5) 37.5%,rgba(114, 22, 76, 0.5) 37.5%, rgba(114, 22, 76, 0.5) 50%,rgba(144, 20, 86, 0.5) 50%, rgba(144, 20, 86, 0.5) 62.5%,rgba(175, 17, 97, 0.5) 62.5%, rgba(175, 17, 97, 0.5) 75%,rgba(205, 14, 108, 0.5) 75%, rgba(205, 14, 108, 0.5) 87.5%,rgba(236, 11, 119, 0.5) 87.5%, rgba(236, 11, 119, 0.5) 100%),linear-gradient(135deg, rgb(188, 0, 159) 0%, rgb(188, 0, 159) 12.5%,rgb(173, 4, 150) 12.5%, rgb(173, 4, 150) 25%,rgb(158, 7, 141) 25%, rgb(158, 7, 141) 37.5%,rgb(143, 11, 132) 37.5%, rgb(143, 11, 132) 50%,rgb(129, 15, 124) 50%, rgb(129, 15, 124) 62.5%,rgb(114, 19, 115) 62.5%, rgb(114, 19, 115) 75%,rgb(99, 22, 106) 75%, rgb(99, 22, 106) 87.5%,rgb(84, 26, 97) 87.5%, rgb(84, 26, 97) 100%);
+}
+
+
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .container{
+    background-image: linear-gradient(37deg, rgb(32, 218, 233),rgb(40, 21, 236));
+    padding: 10px 24px;
+    border-radius: 20px;
+    width: 490px;
+  }
+  h1{
+    color:#ffeba7;
+    text-align: center;
+    margin-bottom: 0.5em;
+    font-family: sans-serif;
+  }
+  .container .box{
+    width: 100%;
+    display: flex;
+  }
+
+  .box div{
+    width: 100%;
+  }
+
+  select{
+    width:95%;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 1.2em;
+    cursor: pointer;
+    background-color: bisque;
+    color: black;
+    margin: 0.2em 0;
+    padding: 1em auto;
+    outline: none;
+    border: none;
+  }
+  
+  input{
+    outline: none;
+    width: 95%;
+    height: 30px;
+    background: #ffeba7;
+    margin: 0.2em 0;
+    border-radius: 10px;
+    border: none;
+    font-size: 1em;
+
+
+  }
+  .btn{
+    display: flex;
+    justify-content: center;
+  }
+
+  
+  button{
+    width: 50%;
+    height: 40px;
+    background-color:#ffeba7;
+    color: #102770;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 1em;
+    margin: 1.5em 0;
+  
+  }
